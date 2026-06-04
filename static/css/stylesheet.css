@@ -1,0 +1,35 @@
+/*
+Source - https://stackoverflow.com/a/19185177
+Posted by Avatar, modified by community. See post 'Timeline' for change history
+Retrieved 2026-06-04, License - CC BY-SA 4.0
+*/
+
+h1 {color: blue; font-size: 13px;}
+h3 {color: red ; font-size: 9px;}
+
+table { 
+    width: 100%;
+    table-layout:fixed;
+}
+
+td {
+    width: 33%;
+    height: 33%;
+    text-align: center;
+    vertical-align: middle; 
+    background-repeat: no-repeat;            
+    background-size: cover;
+    overflow-x: hidden;
+    display: inline-block;
+}
+
+img {
+    display:block; 
+    width:100%; 
+    height:auto;
+}
+
+.rotated {
+    transform: rotate(90deg); /* Equal to rotateZ(95deg) */
+    background-color: pink;
+}
