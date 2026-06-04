@@ -34,10 +34,22 @@ img {
     background-color: pink;
 }
 .resized {
-    width:10%;
+    width:30%;
+    height:auto;
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+.resized-30 {
+    width:30%;
     height:auto;
 }
 .left-aligned {
     text-align:left;
     width: auto;
+}
+.zoom-img:hover {
+    transform: scale(4.0); /* Enlarge by 1.5x */
+}
+.container {
+    display: flex; /* Enables flex layout */
+    gap: 20px; /* Space between divs */
 }

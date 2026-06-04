@@ -1,27 +1,27 @@
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Raphaël the artist</title>
     <link rel="stylesheet" href="/static/css/stylesheet.css">
-  </head>
-  <body>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
 
-    <table >
-        <tr>
-            <td>
-                <img class="resized" src="{{url_for('static', filename='images/raphael/Raphael.png')}}" />
-            </td>
-            <td>
-                <h1>Hi, I am Raphaël the artist </h1>
-            </td>
-            <td>
-                <img src="{{url_for('static', filename='images/raphael/painting.png')}}" />
-            </td>
-            <td>
-                <h3>paintings done in Tarifa (Spain) in August 2021</h3>
-            </td>
-        </tr>
-    </table>
+<body>
+    <div class="container">
+        <div>
+            <img class="resized zoom-img" src="{{url_for('static', filename='images/raphael/raphael.png')}}" />
+        </div>
+        <div>
+            <h1>Hi, I am Raphaël the artist </h1>
+        </div>
+        <div>
+            <img src="{{url_for('static', filename='images/raphael/painting.png')}}" />
+        </div>
+        <div>
+            <h3>oeuvres composées à Tarifa (Espagne) durant l'été 2021</h3>
+        </div>
+    </div>
     <table>
         <tr>
             <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-001.jpg')}}" /></td>
@@ -39,7 +39,88 @@
             <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-008.jpg')}}" /></td>
         </tr>
     </table>
+    <div class="container">
+        <h3>auto-portraits et femmes allongées</h3>
+    </div>
+    <table>
+        <tr>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/corps-allonge-001.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/corps-allonge-002.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/corps-allonge-003.jpg')}}" /></td>
+        </tr>
+        <tr>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/corps-allonge-005.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/auto-portrait-001.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/auto-portraits/auto-portrait-002.jpg')}}" /></td>
+        </tr>
 
-  </body>
+    </table>
+
+</body>
+
+</html><html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Raphaël the artist</title>
+    <link rel="stylesheet" href="/static/css/stylesheet.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img class="resized zoom-img" src="{{url_for('static', filename='images/raphael/raphael.png')}}" />
+        </div>
+        <div>
+            <h1>Hi, I am Raphaël the artist </h1>
+        </div>
+        <div>
+            <img src="{{url_for('static', filename='images/raphael/painting.png')}}" />
+        </div>
+        <div>
+            <h3>oeuvres composées à Tarifa (Espagne) durant l'été 2021</h3>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-001.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-002.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-009.jpg')}}" /></td>
+        </tr>
+        <tr>
+            <td><img src="{{url_for('static', filename='images/tarifa/Tarifa-004.jpg')}}" /></td>
+            <td><img src="{{url_for('static', filename='images/tarifa/Tarifa-005.jpg')}}" /></td>
+            <td><img src="{{url_for('static', filename='images/tarifa/Tarifa-003.jpg')}}" /></td>
+        </tr>
+        <tr>
+            <td><img src="{{url_for('static', filename='images/tarifa/Tarifa-006.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-007.jpg')}}" /></td>
+            <td><img class="rotated" src="{{url_for('static', filename='images/tarifa/Tarifa-008.jpg')}}" /></td>
+        </tr>
+    </table>
+    <div class="container">
+        <h3>auto-portraits et corps couchés</h3>
+    </div>
+    <table>
+        <tr>
+            <td><img src="{{url_for('static', filename='images/auto-portraits/corps-allonge-001.jpg')}}" /></td>
+            <td><img src="{{url_for('static', filename='images/auto-portraits/corps-allonge-002.jpg')}}" /></td>
+            <td><img src="{{url_for('static', filename='images/auto-portraits/corps-allonge-003.jpg')}}" /></td>
+        </tr>
+        <tr>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/corps-allonge-004.jpg')}}" /></td>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/corps-allonge-005.jpg')}}" /></td>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/auto-portrait-001.jpg')}}" /></td>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/auto-portrait-002.jpg')}}" /></td>
+        </tr>
+        <tr>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/auto-portrait-003.jpg')}}" /></td>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/auto-portrait-004.jpg')}}" /></td>
+            <td><img  src="{{url_for('static', filename='images/auto-portraits/auto-portrait-005.jpg')}}" /></td>
+        </tr>
+    </table>
+
+</body>
 
 </html>
