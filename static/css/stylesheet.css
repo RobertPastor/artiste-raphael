@@ -37,3 +37,7 @@ img {
     width:10%;
     height:auto;
 }
+.left-aligned {
+    text-align:left;
+    width: auto;
+}
