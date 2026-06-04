@@ -4,8 +4,8 @@ Posted by Avatar, modified by community. See post 'Timeline' for change history
 Retrieved 2026-06-04, License - CC BY-SA 4.0
 */
 
-h1 {color: blue; font-size: 13px;}
-h3 {color: red ; font-size: 9px;}
+h1 {color: blue; font-size: 13px; text-align: left;}
+h3 {color: red ; font-size: 9px; text-align: right;}
 
 table { 
     width: 100%;
@@ -32,4 +32,8 @@ img {
 .rotated {
     transform: rotate(90deg); /* Equal to rotateZ(95deg) */
     background-color: pink;
+}
+.resized {
+    width:10%;
+    height:auto;
 }
