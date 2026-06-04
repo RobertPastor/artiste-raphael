@@ -1,5 +1,4 @@
-## run the development server
-
+## run the development server on the local PC
 
 $ python app.py
  * Serving Flask app 'app'
