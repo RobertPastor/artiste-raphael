@@ -10,7 +10,7 @@ C:\Users\rober\AppData\Local\Microsoft\WindowsApps\python.exe
 rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
 $ python -m venv virtualEnv
 
-$ ls -al
+$ ls -al  
 total 33
 drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 ./  
 drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 ../  
