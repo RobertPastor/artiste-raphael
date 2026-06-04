@@ -12,13 +12,13 @@ $ python -m venv virtualEnv
 
 $ ls -al
 total 33
-drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 ./
-drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 ../
-drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 .git/
--rw-r--r-- 1 rober 197609  4846 Jun  4 12:42 .gitignore
--rw-r--r-- 1 rober 197609 11558 Jun  4 12:42 LICENSE
--rw-r--r-- 1 rober 197609    17 Jun  4 12:42 README.md
-drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 virtualEnv/
+drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 ./  
+drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 ../  
+drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 .git/  
+-rw-r--r-- 1 rober 197609  4846 Jun  4 12:42 .gitignore  
+-rw-r--r-- 1 rober 197609 11558 Jun  4 12:42 LICENSE  
+-rw-r--r-- 1 rober 197609    17 Jun  4 12:42 README.md  
+drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 virtualEnv/  
 
 
 ## activate the virtual environment
