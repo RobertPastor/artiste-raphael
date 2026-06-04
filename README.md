@@ -1,12 +1,12 @@
 # artiste-raphael
 this is the site name
 
-## in bash
+## in bash  
 $ where python
 C:\Users\rober\AppData\Local\Programs\Python\Python311\python.exe
 C:\Users\rober\AppData\Local\Microsoft\WindowsApps\python.exe
 
-## create a virtual environment
+## create a virtual environment  
 rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
 $ python -m venv virtualEnv
 
@@ -21,7 +21,7 @@ drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 .git/
 drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 virtualEnv/  
 
 
-## activate the virtual environment
+## activate the virtual environment  
 $ source virtualEnv/Scripts/activate
 (virtualEnv)
 rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
