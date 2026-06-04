@@ -11,7 +11,6 @@ table {
     width: 100%;
     table-layout:fixed;
 }
-
 td {
     width: 33%;
     height: 33%;
@@ -22,13 +21,11 @@ td {
     overflow-x: hidden;
     display: inline-block;
 }
-
 img {
     display:block; 
     width:100%; 
     height:100%;
 }
-
 .rotated {
     transform: rotate(90deg); /* Equal to rotateZ(95deg) */
     background-color: pink;
