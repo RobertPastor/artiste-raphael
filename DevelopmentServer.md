@@ -1,3 +1,12 @@
+## activate the virtual environment
+
+rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
+$  source virtualEnv/Scripts/activate
+(virtualEnv)
+rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
+
+
+
 ## run the development server on the local PC
 
 $ python app.py

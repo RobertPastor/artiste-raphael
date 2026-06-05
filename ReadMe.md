@@ -21,7 +21,7 @@ drwxr-xr-x 1 rober 197609     0 Jun  4 12:42 .git/
 drwxr-xr-x 1 rober 197609     0 Jun  4 12:53 virtualEnv/  
 
 
-## activate the virtual environment  
+## activate the virtual environment  (on the PC in windows)
 $ source virtualEnv/Scripts/activate  
 (virtualEnv)  
 rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)  

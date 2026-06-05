@@ -4,9 +4,23 @@ Posted by Avatar, modified by community. See post 'Timeline' for change history
 Retrieved 2026-06-04, License - CC BY-SA 4.0
 */
 
-h1 {color: blue; font-size: 13px; text-align: left;}
-h3 {color: red ; font-size: 9px; text-align: right;}
-
+h1 {color: blue; font-size: 13px; text-align: left; font-family: Arial, sans-serif;}
+h2 {color: blue; font-size: 12px; text-align: left; font-family: Arial, sans-serif;}
+h3 {color: blue ; font-size: 9px; text-align: right; font-family: Arial, sans-serif;}
+.email {
+    color: blue; 
+    font-size: 9px; 
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    vertical-align: middle;
+}
+lien {
+    color: blue; 
+    font-size: 10px; 
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    vertical-align: middle;
+}
 table { 
     width: 100%;
     table-layout:fixed;
@@ -27,7 +41,7 @@ img {
     height:auto;
 }
 .rotated {
-    transform: rotate(90deg); /* Equal to rotateZ(95deg) */
+    transform: rotate(90deg); /* Equal to rotateZ(90deg) */
     background-color: pink;
 }
 .resized {
@@ -49,4 +63,6 @@ img {
 .container {
     display: flex; /* Enables flex layout */
     gap: 20px; /* Space between divs */
+    align-items: center; /* Vertically centers items */
+    justify-content: left;
 }
