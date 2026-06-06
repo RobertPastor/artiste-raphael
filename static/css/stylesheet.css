@@ -8,10 +8,10 @@ html {
     background-image: url("../images/raphael/raphael-003.jpg");
 }
 
-
 h1 {color: blue; font-size: 13px; text-align: left; font-family: Arial, sans-serif;}
 h2 {color: blue; font-size: 12px; text-align: left; font-family: Arial, sans-serif;}
 h3 {color: blue; font-size: 9px; text-align: left; font-family: Arial, sans-serif;}
+
 .email {
     color: blue; 
     font-size: 9px; 
