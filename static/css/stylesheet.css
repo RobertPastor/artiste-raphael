@@ -4,6 +4,11 @@ Posted by Avatar, modified by community. See post 'Timeline' for change history
 Retrieved 2026-06-04, License - CC BY-SA 4.0
 */
 
+html {
+    background-image: url("../images/raphael/raphael-003.jpg");
+}
+
+
 h1 {color: blue; font-size: 13px; text-align: left; font-family: Arial, sans-serif;}
 h2 {color: blue; font-size: 12px; text-align: left; font-family: Arial, sans-serif;}
 h3 {color: blue; font-size: 9px; text-align: left; font-family: Arial, sans-serif;}
