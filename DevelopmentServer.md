@@ -1,4 +1,4 @@
-## activate the virtual environment
+## activate the virtual environment in Windows Gitbash
 
 rober@RobertPastor MINGW64 ~/git/artiste-raphael (master)
 $  source virtualEnv/Scripts/activate
