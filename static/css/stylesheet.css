@@ -8,84 +8,152 @@ html {
     background-image: url("../images/raphael/raphael-003.jpg");
 }
 
-h1 {color: white; font-size: 13px; text-align: left; font-family: Arial, sans-serif;}
-h2 {color: white; font-size: 12px; text-align: left; font-family: Arial, sans-serif;}
-h3 {color: white; font-size: 9px; text-align: left; font-family: Arial, sans-serif;}
+h1 {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 9px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
 
 .email {
-    color: white; 
-    font-size: 9px; 
-    text-align: left; 
+    color: white;
+    font-size: 9px;
+    text-align: left;
     font-family: Arial, sans-serif;
     vertical-align: middle;
 }
+
 lien {
-    color: blue; 
-    font-size: 10px; 
-    text-align: left; 
+    color: blue;
+    font-size: 10px;
+    text-align: left;
     font-family: Arial, sans-serif;
     vertical-align: middle;
 }
-table { 
+
+table {
     width: 100%;
-    table-layout:fixed;
+    table-layout: fixed;
 }
+
 td {
     width: 33%;
     height: 33%;
     text-align: center;
-    vertical-align: middle; 
-    background-repeat: no-repeat;            
+    vertical-align: middle;
+    background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     display: inline-block;
 }
+
 img {
-    display:block; 
-    width:100%; 
-    height:auto;
+    display: block;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
+
 .img-wrapper {
     /* Let the div size itself to its content */
-    display: inline-block;   /* shrink-wrap to content width/height */
-    padding: 0;              /* remove extra space */
+    display: inline-block;
+    /* shrink-wrap to content width/height */
+    padding: 0;
+    /* remove extra space */
     margin: 0;
 }
+
 .img-wrapper img {
-    display: block;          /* remove inline gap below image */
-    height: auto;            /* keep aspect ratio */
-    max-width: none;         /* prevent browser from limiting size */
+    display: block;
+    /* remove inline gap below image */
+    height: auto;
+    /* keep aspect ratio */
+    max-width: none;
+    /* prevent browser from limiting size */
 }
+
 .rotated {
-    transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+    transform: rotate(90deg);
+    /* Equal to rotateZ(90deg) */
     background-color: pink;
 }
+
 .resized {
-    width:30%;
-    height:auto;
-    transition: transform 0.3s ease; /* Smooth animation */
+    width: 30%;
+    height: auto;
+    transition: transform 0.3s ease;
+    /* Smooth animation */
 }
+
 .resized-10 {
-    width:10%;
-    height:auto;
-    transition: transform 0.3s ease; /* Smooth animation */
+    width: 10%;
+    height: auto;
+    transition: transform 0.3s ease;
+    /* Smooth animation */
 }
+
 .resized-30 {
-    width:30%;
-    height:auto;
-    transition: transform 0.3s ease; /* Smooth animation */
+    width: 30%;
+    height: auto;
+    transition: transform 0.3s ease;
+    /* Smooth animation */
 }
+
 .left-aligned {
-    text-align:left;
+    text-align: left;
     width: auto;
 }
+
 .zoom-img:hover {
-    transform: scale(4.0); /* Enlarge by 1.5x */
+    transform: scale(4.0);
+    /* Enlarge by 1.5x */
 }
+
+.zoom-img-shift:hover {
+    transform: scale(4.0) translateY(30px);
+    /* Enlarge by 1.5x */
+}
+
 .container {
-    display: flex; /* Enables flex layout */
-    gap: 10px; /* Space between divs */
-    align-items: center; /* Vertically centers items */
+    display: flex;
+    /* Enables flex layout */
+    gap: 10px;
+    /* Space between divs */
+    align-items: center;
+    /* Vertically centers items */
     justify-content: left;
+}
+
+.parent {
+    display: flex;    
+    width: fit-content;   
+    height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.child {
+    white-space: nowrap; /* Prevents wrapping */
+    flex-shrink: min; 
+    padding: 1px;
+    /* Padding included in width */
+    box-sizing: border-box;
+    /* Prevents padding from breaking layout */
+    align-self: flex-start;
+    width: fit-content;  
+    align-items: center; /* Vertically centers items */
 }

@@ -21,19 +21,24 @@
             </div>
             <div>
                 <a class="lien" href="https://www.esaaix.fr/" target="_blank" id="logo" title="école supérieure d'Art d'Aix en Provence">
-                    <img src="{{url_for('static', filename='images/raphael/ecole-arts-Aix.jpg')}}" />
+                    <img class="resized-30 zoom-img" src="{{url_for('static', filename='images/raphael/ecole-arts-Aix.jpg')}}" />
+                </a>
+            </div>
+            <div>
+                <a class="lien" href="https://www.grandelibrairie.com/" target="_blank" id="logo" title="RDV en Aout 2026">
+                     <img class="resized-30 zoom-img-shift" src="{{url_for('static', filename='images/raphael/grande-librairie-internationale.jpg')}}" />
                 </a>
             </div>
             <div>
                 <a class="email"  href="mailto:raphael.pastor8@orange.fr">Send me an email</a>
             </div>
         </div>
-        <div class="container">
-            <div class="img-wrapper">
-                <img title="tarifa" class="resized-10 zoom-img" src="{{url_for('static', filename='images/tarifa/Tarifa-toits.jpeg')}}" />
+        <div class="parent">
+             <div class="child">
+                <h3>Tarifa (Spain 2021)</h3>
             </div>
-            <div>
-                <h3>Paintings made in Tarifa (Spain 2021)</h3>
+            <div class="img-wrapper child">
+                <img title="Tarifa" class="resized-10 zoom-img" src="{{url_for('static', filename='images/tarifa/Tarifa-toits.jpeg')}}" />
             </div>
         </div>
         <table>
@@ -54,7 +59,7 @@
             </tr>
         </table>
         <div class="container">
-            <h2>Bodies</h3>
+            <h2>Bodies</h2>
         </div>
         <table>
             <tr>
@@ -250,12 +255,19 @@
                 <td><img src="{{url_for('static', filename='images/objets/objet-036.jpg')}}" /></td>
             </tr>
 
-             <tr>
+            <tr>
                 <td><img src="{{url_for('static', filename='images/objets/objet-037.jpg')}}" /></td>
                 <td><img src="{{url_for('static', filename='images/objets/objet-038.jpg')}}" /></td>
                 <td><img src="{{url_for('static', filename='images/objets/objet-039.jpg')}}" /></td>
             </tr>
-
+            <tr>
+                <td><img src="{{url_for('static', filename='images/objets/objet-040.jpg')}}" /></td>
+                <td><img src="{{url_for('static', filename='images/objets/objet-041.jpg')}}" /></td>
+                <td><img src="{{url_for('static', filename='images/objets/objet-042.jpg')}}" /></td>
+            </tr>
+            <tr>
+                <td><img src="{{url_for('static', filename='images/objets/objet-043.jpg')}}" /></td>
+            </tr>
          </table>
     </div>
 </body>
